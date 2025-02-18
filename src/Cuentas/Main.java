@@ -15,6 +15,7 @@ public class Main {
         System.out.println("El saldo actual es " + saldoActual);
         
         // Llamamos al método de operaciones
+        System.out.println("Realizado operaciones en la cuenta...");
         operaciones(cuenta1);
 
         saldoActual = cuenta1.estado();
